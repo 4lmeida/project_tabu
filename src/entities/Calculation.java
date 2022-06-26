@@ -14,6 +14,35 @@ public class Calculation {
 		this.b = b;
 		this.c = c;
 	}
+
+	public Integer getA() {
+		return a;
+	}
+
+	public void setA(Integer a) {
+		this.a = a;
+	}
+
+	public Integer getB() {
+		return b;
+	}
+
+	public void setB(Integer b) {
+		this.b = b;
+	}
+
+	public Integer getC() {
+		return c;
+	}
+
+	public void setC(Integer c) {
+		this.c = c;
+	}
+	
+	public int total() {
+		return a + b + c;
+	}
+	
 	
 	
 }
